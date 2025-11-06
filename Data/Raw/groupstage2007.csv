@@ -1,0 +1,21 @@
+Pos,Country,Matches_Played,Wins,Draws,Losses,Goals For,Goals Against,Goal Differential,Points
+Pos,Teamvte,Pld,W,D,L,GF,GA,GD,Pts
+1,Germany,3,2,1,0,13,0,+13,7
+2,England,3,1,2,0,8,3,+5,5
+3,Japan,3,1,1,1,3,4,−1,4
+4,Argentina,3,0,0,3,1,18,−17,0
+Pos,Teamvte,Pld,W,D,L,GF,GA,GD,Pts
+1,United States,3,2,1,0,5,2,+3,7
+2,North Korea,3,1,1,1,5,4,+1,4
+3,Sweden,3,1,1,1,3,4,−1,4
+4,Nigeria,3,0,1,2,1,4,−3,1
+Pos,Teamvte,Pld,W,D,L,GF,GA,GD,Pts
+1,Norway,3,2,1,0,10,4,+6,7
+2,Australia,3,1,2,0,7,4,+3,5
+3,Canada,3,1,1,1,7,4,+3,4
+4,Ghana,3,0,0,3,3,15,−12,0
+Pos,Teamvte,Pld,W,D,L,GF,GA,GD,Pts
+1,Brazil,3,3,0,0,10,0,+10,9
+2,China (H),3,2,0,1,5,6,−1,6
+3,Denmark,3,1,0,2,4,4,0,3
+4,New Zealand,3,0,0,3,0,9,−9,0
