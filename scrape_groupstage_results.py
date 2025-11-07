@@ -85,7 +85,7 @@ def scrape_list(url, filename):
     print(len(rows),"rows of data scraped and saved to",filename)
 
 if __name__ == "__main__":
-    for year in [1999,2003,2007,2011]:
+    for year in [1991]:
         url = f"https://en.wikipedia.org/wiki/{year}_FIFA_Women%27s_World_Cup"
         filename = os.path.dirname(__file__)+f"\\Data\\Raw\\groupstage{year}.csv"
         scrape_list(url, filename)

@@ -29,6 +29,8 @@ countries = ["Argentina",
             "Philippines",
             "Portugal",
             "Ireland",
+            "Rep. of Ireland",
+            "Republic of Ireland",
             "South Africa",
             "Spain",
             "Sweden",
@@ -75,5 +77,5 @@ def scrape_list(url, filename):
 
 if __name__ == "__main__":
     url = "https://www.autostraddle.com/2023-world-cup-gay-players/"
-    filename = os.path.dirname(__file__)+"\\queerlists.csv"
+    filename = os.path.dirname(__file__)+"\\Data\\Raw\\queerlist2023.csv"
     scrape_list(url, filename)

@@ -13,7 +13,11 @@ groupstage <- lapply(
   mutate(Country = gsub(" \\(H\\)","", Country),
          Goal.Differential=gsub("\\+","",Goal.Differential),
          Goal.Differential=gsub("\\−","-",Goal.Differential),
-         across(c(-Country), as.numeric))
+         across(c(-Country), as.numeric),
+         Country=case_match(Country,
+                            "Republic of Ireland"~"Ireland",
+                            "USA"~"United States",
+                            .default=gsub("\xc2\xa0","",Country)))
 
 winners <- read.csv(paste(rawpath,"winners_allyears.csv",sep=""), strip.white = T) %>% 
   #mutate(X.1=gsub("",NA,X.1)) %>% 
@@ -45,7 +49,40 @@ gays <- lapply(
                           Country),
          Name = ifelse(str_detect(Name,","),
            gsub(",","", str_extract(Name, ".*,")),
-           Name)) %>% 
+           Name),
+         Country=case_match(Country,
+                            "Republic of Ireland"~"Ireland",
+                            "USA"~"United States",
+                            .default=gsub("\xc2\xa0","",Country))) %>% 
   filter(!is.na(Country))
 
+n.gays <- gays %>% 
+  group_by(Country, Year) %>% 
+  summarize(n.gays=n())
+
+winners.comb <- winners %>% 
+  full_join(n.gays, by=c("Country","Year")) %>% 
+  full_join(groupstage, by=c("Country","Year")) %>% 
+  mutate(
+    Place = ifelse(is.na(Place),
+                   5,
+                   Place),
+    n.gays = ifelse(is.na(n.gays),
+                    0,
+                    n.gays),
+    Success.Index=Points+((5-Place)*5)) %>% 
+  select(Year, Country, n.gays, Success.Index, Place, Points)
+
+winners.comb %>% 
+  filter(Year >=2015) %>% 
+  ggplot(aes(y=Success.Index, x=n.gays, color=Year))+
+  geom_point(alpha=0.5)+
+  geom_smooth(method="lm")
          
+gsub("^[\t\n]+ *","",gays[17,2])
+gays[17,2]
+
+as.character.hexmode(gays[17,2])
+substr(gays[17,2],1,1)
+charToRaw(substr(gays[17,2],1,1))
+charToRaw("\xc2\xa0")

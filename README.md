@@ -14,3 +14,6 @@ etc.
 ### Lists of queer players
 2023, https://www.autostraddle.com/2023-world-cup-gay-players/
 2019, https://www.outsports.com/2019/6/11/18660301/out-gay-lesbian-bi-2019-women-world-cup-soccer/
+
+### World Cup Rosters
+https://en.wikipedia.org/wiki/2023_FIFA_Women%27s_World_Cup_squads, etc.
