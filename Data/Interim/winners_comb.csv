@@ -1,0 +1,169 @@
+"Year","Country","n.gays","Success.Index","Place","Points"
+1991,"United States",0,26,1,6
+1991,"Norway",0,19,2,4
+1991,"Sweden",0,14,3,4
+1991,"Germany",0,11,4,6
+1995,"Norway",0,29,1,9
+1995,"Germany",0,21,2,6
+1995,"United States",0,17,3,7
+1995,"China",0,12,4,7
+1999,"United States",0,29,1,9
+1999,"China",0,24,2,9
+1999,"Brazil",0,17,3,7
+1999,"Norway",0,14,4,9
+2003,"Germany",0,29,1,9
+2003,"Sweden",0,21,2,6
+2003,"United States",0,19,3,9
+2003,"Canada",0,11,4,6
+2007,"Germany",0,27,1,7
+2007,"Brazil",0,24,2,9
+2007,"United States",0,17,3,7
+2007,"Norway",0,12,4,7
+2011,"Japan",0,26,1,6
+2011,"United States",0,21,2,6
+2011,"Sweden",0,19,3,9
+2011,"France",0,11,4,6
+2015,"United States",2,27,1,7
+2015,"Japan",0,24,2,9
+2015,"England",2,16,3,6
+2015,"Germany",1,12,4,7
+2019,"United States",5,29,1,9
+2019,"Netherlands",5,24,2,9
+2019,"Sweden",4,16,3,6
+2019,"England",3,14,4,9
+2023,"Spain",4,26,1,6
+2023,"England",6,24,2,9
+2023,"Sweden",8,19,3,9
+2023,"Australia",13,11,4,6
+2019,"Argentina",1,2,5,2
+2023,"Argentina",5,1,5,1
+2015,"Australia",1,4,5,4
+2019,"Australia",4,6,5,6
+2019,"Brazil",3,6,5,6
+2023,"Brazil",9,4,5,4
+2015,"Canada",1,5,5,5
+2019,"Canada",4,6,5,6
+2023,"Canada",4,4,5,4
+2019,"Chile",1,3,5,3
+2023,"Colombia",4,6,5,6
+2023,"Costa Rica",2,0,5,0
+2023,"Denmark",2,6,5,6
+2023,"France",2,7,5,7
+2023,"Germany",6,4,5,4
+2023,"Ireland",10,1,5,1
+2023,"Italy",3,3,5,3
+2023,"Jamaica",1,5,5,5
+2023,"Morocco",1,6,5,6
+2023,"Netherlands",7,7,5,7
+2015,"New Zealand",1,2,5,2
+2019,"New Zealand",4,0,5,0
+2023,"New Zealand",4,4,5,4
+2015,"Norway",2,7,5,7
+2019,"Norway",1,6,5,6
+2023,"Norway",5,4,5,4
+2023,"Philippines",1,3,5,3
+2023,"Portugal",1,4,5,4
+2019,"Scotland",1,1,5,1
+2019,"South Africa",1,0,5,0
+2023,"South Africa",2,4,5,4
+2019,"Spain",1,4,5,4
+2015,"Sweden",4,3,5,3
+2015,"Switzerland",1,3,5,3
+2023,"Switzerland",4,5,5,5
+2023,"United States",3,5,5,5
+1991,"China",0,5,5,5
+1991,"Denmark",0,3,5,3
+1991,"New Zealand",0,0,5,0
+1991,"Brazil",0,2,5,2
+1991,"Japan",0,0,5,0
+1991,"Italy",0,4,5,4
+1991,"Chinese Taipei",0,2,5,2
+1991,"Nigeria",0,0,5,0
+1995,"Sweden",0,6,5,6
+1995,"Japan",0,3,5,3
+1995,"Brazil",0,3,5,3
+1995,"England",0,6,5,6
+1995,"Canada",0,1,5,1
+1995,"Nigeria",0,1,5,1
+1995,"Denmark",0,3,5,3
+1995,"Australia",0,0,5,0
+1999,"Nigeria",0,6,5,6
+1999,"North Korea",0,3,5,3
+1999,"Denmark",0,0,5,0
+1999,"Germany",0,5,5,5
+1999,"Italy",0,4,5,4
+1999,"Mexico",0,0,5,0
+1999,"Russia",0,6,5,6
+1999,"Canada",0,1,5,1
+1999,"Japan",0,1,5,1
+1999,"Sweden",0,6,5,6
+1999,"Australia",0,1,5,1
+1999,"Ghana",0,1,5,1
+2003,"North Korea",0,3,5,3
+2003,"Nigeria",0,0,5,0
+2003,"Brazil",0,7,5,7
+2003,"Norway",0,6,5,6
+2003,"France",0,4,5,4
+2003,"South Korea",0,0,5,0
+2003,"Japan",0,3,5,3
+2003,"Argentina",0,0,5,0
+2003,"China",0,7,5,7
+2003,"Russia",0,6,5,6
+2003,"Ghana",0,3,5,3
+2003,"Australia",0,1,5,1
+2007,"England",0,5,5,5
+2007,"Japan",0,4,5,4
+2007,"Argentina",0,0,5,0
+2007,"North Korea",0,4,5,4
+2007,"Sweden",0,4,5,4
+2007,"Nigeria",0,1,5,1
+2007,"Australia",0,5,5,5
+2007,"Canada",0,4,5,4
+2007,"Ghana",0,0,5,0
+2007,"China",0,6,5,6
+2007,"Denmark",0,3,5,3
+2007,"New Zealand",0,0,5,0
+2011,"Germany",0,9,5,9
+2011,"Nigeria",0,3,5,3
+2011,"Canada",0,0,5,0
+2011,"England",0,7,5,7
+2011,"Mexico",0,2,5,2
+2011,"New Zealand",0,1,5,1
+2011,"North Korea",0,1,5,1
+2011,"Colombia",0,1,5,1
+2011,"Brazil",0,9,5,9
+2011,"Australia",0,6,5,6
+2011,"Norway",0,3,5,3
+2011,"Equatorial Guinea",0,0,5,0
+2015,"China",0,4,5,4
+2015,"Netherlands",0,4,5,4
+2015,"Thailand",0,3,5,3
+2015,"Ivory Coast",0,0,5,0
+2015,"Cameroon",0,6,5,6
+2015,"Ecuador",0,0,5,0
+2015,"Nigeria",0,1,5,1
+2015,"Brazil",0,9,5,9
+2015,"South Korea",0,4,5,4
+2015,"Costa Rica",0,2,5,2
+2015,"Spain",0,1,5,1
+2015,"France",0,6,5,6
+2015,"Colombia",0,4,5,4
+2015,"Mexico",0,1,5,1
+2019,"France",0,9,5,9
+2019,"Nigeria",0,3,5,3
+2019,"South Korea",0,0,5,0
+2019,"Germany",0,9,5,9
+2019,"China",0,4,5,4
+2019,"Italy",0,6,5,6
+2019,"Jamaica",0,0,5,0
+2019,"Japan",0,4,5,4
+2019,"Cameroon",0,3,5,3
+2019,"Thailand",0,0,5,0
+2023,"Nigeria",0,5,5,5
+2023,"Japan",0,9,5,9
+2023,"Zambia",0,3,5,3
+2023,"China",0,3,5,3
+2023,"Haiti",0,0,5,0
+2023,"Vietnam",0,0,5,0
+2023,"Panama",0,0,5,0
+2023,"South Korea",0,1,5,1

@@ -1,9 +1,7 @@
 from bs4 import BeautifulSoup
 import requests
-import re
 import csv
 import os
-
 
 def scrape_list(url, filename):
     # get and load the webpage as the variable "soup" from the above url
